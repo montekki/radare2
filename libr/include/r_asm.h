@@ -250,6 +250,7 @@ extern RAsmPlugin r_asm_plugin_sparc_cs;
 extern RAsmPlugin r_asm_plugin_sparc_gnu;
 extern RAsmPlugin r_asm_plugin_spc700;
 extern RAsmPlugin r_asm_plugin_sysz;
+extern RAsmPlugin r_asm_plugin_tilegx;
 extern RAsmPlugin r_asm_plugin_tms320;
 extern RAsmPlugin r_asm_plugin_tms320c64x;
 extern RAsmPlugin r_asm_plugin_tricore;

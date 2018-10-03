@@ -1968,6 +1968,8 @@ char* Elf_(r_bin_elf_get_arch)(ELFOBJ *bin) {
 		return strdup ("v850");
 	case EM_IA_64:
 		return strdup("ia64");
+	case EM_TILEGX:
+		return strdup("tilegx");
 	default: return strdup ("x86");
 	}
 }
